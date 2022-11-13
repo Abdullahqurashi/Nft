@@ -1,0 +1,392 @@
+
+@import url('https://fonts.cdnfonts.com/css/januari-blossom');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    color: white;
+
+}
+
+
+/* NAVIGATION SECTION */
+
+a{
+    color: #5A5A5A;
+}
+
+.header-parent{
+   
+}
+
+nav{
+   
+    padding: 0 0 40px 0;
+    
+}
+nav .logo {
+    font-size: 50px;
+    font-weight:900;
+    font-family: 'Januari Blossom', sans-serif;
+    margin-left: 40px;
+    line-height: 40px;
+    margin-top: 15px;
+    
+}
+    
+
+nav ul{
+    float: right;
+   
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 17px;
+    font-size: 17px;
+    color: #5A5A5A !important;
+    line-height: 90px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    
+}
+.checkbtn{
+    font-size: 50px;
+    display: none;
+    float: right;
+}
+
+.icon{
+    
+    color: #5A5A5A;
+    font-size: 22px !important;
+}
+.ii{
+    margin-right: 40px;
+}
+.toogle{
+    margin-right: 70px;
+    margin-top: 25px;
+    font-size: 85px !important;
+
+}
+
+
+
+
+.hero-parent{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 60px 0;
+ background: url() no-repeat;
+}
+
+.hero-text{
+    
+    font-size: 214px;
+    font-family: 'Januari Blossom', sans-serif;
+    line-height: 100px;
+    width: 53%;
+    margin: auto;
+
+  
+
+
+}
+.hero-welcome{
+    font-size: 180px;
+}
+.hero-linear{
+  
+    /* background: linear-gradient( 357deg, #4caf50, #ffeb3b); */
+    background: linear-gradient(352deg, #F84A00, #B19501);
+    color: white;
+    font-weight: bolder;
+   
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    font-size: 155px;
+}
+.hero-nft{
+    font-size: 180px;
+    line-height: 1;
+}
+.hero-para{
+    width: 80%;
+    margin: auto;
+}
+.hero-para p{
+  text-align: center;
+  font-size: 21px;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(180, 180, 180);
+  font-weight: bolder;
+  padding: 0 0 35px 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* BOOTSTRAP CHANGING */
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    /* flex-basis: auto; */
+    justify-content: end;
+}
+
+
+
+
+
+/* ABOUT section */
+
+.about-parent{
+    margin-top: -155px;
+    padding: 280px 0  !important;
+}
+.about-text-parent{
+    width: 90%;
+    margin: auto;
+}
+.about-text{
+    font-family:  'Januari Blossom', sans-serif;
+    font-size: 100px
+}
+.about-para{
+    color: rgb(180, 180, 180);
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: bolder;
+
+}
+
+.box{
+   width: 90%;
+   margin: auto;
+   padding: 20px 40px;
+    background-color: #5c5a5a42;
+   border-radius: 25px;
+   border: 5px solid #ffffff26;
+   margin: 80px auto;
+
+}
+.box-text{
+    font-family:  'Januari Blossom', sans-serif;
+    font-size: 70px;
+    border-bottom: 5px solid white;
+    width: 12%;
+}
+.box-para{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(180, 180, 180);
+    width: 85%;
+}
+
+
+
+
+
+/* ROAD MAP section */
+
+
+.road-parent{
+    margin-top: -80px;
+    padding: 80px 0;
+}
+.road-text{
+    width: 90%;
+    margin: auto;
+}
+.road-text h1{
+    font-size: 100px;
+    font-family:  'Januari Blossom', sans-serif;
+    padding-bottom: 60px;
+
+}
+.road-box-parent{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+    width: 95%;
+    margin: auto;
+
+    justify-content: center;
+    
+    
+}
+.road-box{
+    background-color: #5c5a5a42;
+    padding: 80px 40px ;
+    width: 90%;
+    border-radius: 25px;
+    border: 5px solid #ffffff26;
+    margin-left: 20px;
+}
+.road-box h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.road-box ul{
+   padding-top: 50px;
+}
+.road-box ul li{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(180, 180, 180);
+    
+}
+
+
+
+
+
+/* FEATURES TEXT */
+
+.features-text{
+    font-size: 100px;
+    font-family:  'Januari Blossom', sans-serif; 
+    width: 90%;   
+    margin: auto;
+}
+.features-box-parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+gap: 50px;
+padding: 80px 0 80px 0;
+width: 90%;
+margin: auto;
+
+
+
+}
+
+.features-box p{
+   font-size: 24px;
+   font-family: 'Poppins', sans-serif;
+   
+}
+.features-box{
+    background-color: #5c5a5a42;
+    border: 5px solid #ffffff26;
+   
+    border-radius: 25px;
+    padding: 40px 0;
+}
+
+/* FAQS SECTION */
+.faq-parent{
+    padding: 80px 0;
+    margin-top: -10px;
+}
+.accordion{
+    margin: 60px 0;
+}
+
+
+.faq-text h1{
+    font-size: 100px;
+    font-family:  'Januari Blossom', sans-serif;
+    width: 90%;
+    margin: auto;
+   
+}
+
+.accordion-button {
+    background: linear-gradient(to right,#423801,#422101);
+}
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #e7f1ff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+    color: white;
+    font-family:  'Januari Blossom', sans-serif;
+    font-size: 60px;
+}
+.accordion-flush .accordion-item:first-child {
+    border-top: 0;
+    width: 90%;
+    /* border: 5px solid gray; */
+    background-color: #5c5a5a42;
+margin-top: 80px;
+    /* border: 5px solid #ffffff26; */
+    margin: auto;
+    border: 5px solid #ffffff26;
+    border-radius: 8px;
+}
+.accordion-item:last-of-type .accordion-collapse {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+   
+    outline: 0;
+    box-shadow: 0 0 0 ;
+}
+
+
+
+
+
+/* FOTEER section */
+
+.footer-text {
+    font-size: 80px;
+    font-family:  'Januari Blossom', sans-serif;
+
+}
+.footer{
+  
+}
+.footer-parent{
+    display: flex;
+   justify-content: center;
+   gap: 80px;
+   margin: 80px 0 0 0;
+   padding: 0 0 100px 0;
+   flex-wrap: wrap;
+}
+.footer-button{
+    background: linear-gradient(to right,#DFC902,#FF5D01);
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    padding: 5px 15px;
+    border-radius: 25px;
+    font-weight: bolder;
+}
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
