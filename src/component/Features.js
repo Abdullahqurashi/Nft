@@ -2,7 +2,7 @@ import React from 'react'
 
 const Features = () => {
   return (
-    <div style={{backgroundImage:`url(images/6.jpg)`, marginTop:'-13px'}}>
+    <div style={{backgroundImage:`url(images/6.jpg)`, marginTop:'-13px'}} className='features-parent'>
         <h1 className='features-text'>Features</h1>
         <div className='features-box-parent'> 
             <div className='features-box'> 

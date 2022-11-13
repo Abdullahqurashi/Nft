@@ -9,6 +9,9 @@
     color: white;
 
 }
+body{
+    background: black;
+}
 
 
 /* NAVIGATION SECTION */
@@ -18,7 +21,12 @@ a{
 }
 
 .header-parent{
-   
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-size: cover !important;
+    width: 100%;
+
 }
 
 nav{
@@ -156,8 +164,11 @@ nav ul li a{
 /* ABOUT section */
 
 .about-parent{
-    margin-top: -155px;
-    padding: 280px 0  !important;
+    /* margin-top: -155px; */
+    padding: 100px 0 !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 .about-text-parent{
     width: 90%;
@@ -206,7 +217,9 @@ nav ul li a{
 
 
 .road-parent{
-    margin-top: -80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
     padding: 80px 0;
 }
 .road-text{
@@ -257,7 +270,11 @@ nav ul li a{
 
 
 /* FEATURES TEXT */
-
+.features-parent{
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: 100%;
+}
 .features-text{
     font-size: 100px;
     font-family:  'Januari Blossom', sans-serif; 
@@ -292,7 +309,9 @@ margin: auto;
 /* FAQS SECTION */
 .faq-parent{
     padding: 80px 0;
-    margin-top: -10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
 }
 .accordion{
     margin: 60px 0;
