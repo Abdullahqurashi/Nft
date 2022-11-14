@@ -310,6 +310,10 @@ margin: auto;
 
 
 /* FAQS SECTION */
+
+
+
+
 .faq-parent{
     padding: 80px 0;
     background-repeat: no-repeat;
@@ -328,7 +332,7 @@ margin: auto;
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
     padding: 10px 50px;
-    font-size: 100px;
+    font-size: 70px;
     color: white;
     font-family:  'Januari Blossom', sans-serif;
 }
@@ -341,7 +345,7 @@ margin: auto;
     color: #ffffff;
     background-color: #e7f1ff;
     /* box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%); */
-    font-size: 100px;
+    font-size: 70px;
     padding: 10px 50px;
     font-family: 'Januari Blossom', sans-serif;
 }
@@ -349,7 +353,7 @@ margin: auto;
 
 .accordion-body {
     padding: 1rem 1.25rem;
-    color: white;
+    color: #656967;
     background: #181717;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
@@ -371,7 +375,7 @@ margin: auto;
 .acc2{
   
         padding: 10px 50px;
-        font-size: 100px;
+        font-size: 70px;
         color: white;
         font-family: 'Januari Blossom', sans-serif;
     
@@ -389,7 +393,7 @@ margin: auto;
 .acc3{
   
         padding: 10px 50px;
-        font-size: 100px;
+        font-size: 70px;
         color: white;
         font-family: 'Januari Blossom', sans-serif;
     
@@ -421,6 +425,15 @@ margin-top: 80px;
     outline: 0;
     box-shadow: 0 0 0 .25remrgba(13,110,253,.25);
 }
+
+
+
+
+
+
+
+
+
 /* FOTEER section */
 
 .footer-text {

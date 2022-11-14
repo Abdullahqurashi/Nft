@@ -31,12 +31,12 @@ const Faq = () => {
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button acc3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingfour">
+                            <button class="accordion-button acc3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
                                 What is Clueless Cheetah’s Utility?
                             </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                             <div class="accordion-body">
                                 Our team has been collectively working on our utility, and the ways to not only limit it to online only, but the physical world at large. We want to under-promise and over-deliver. Follow us or Join our Community to get updates about our utility.
                             </div>
