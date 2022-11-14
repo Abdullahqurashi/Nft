@@ -306,6 +306,9 @@ margin: auto;
     padding: 40px 0;
 }
 
+
+
+
 /* FAQS SECTION */
 .faq-parent{
     padding: 80px 0;
@@ -313,11 +316,46 @@ margin: auto;
     background-size: cover;
     width: 100%;
 }
-.accordion{
-    margin: 60px 0;
+.faq-acc{
+    width: 90%;
+    margin: auto;
+}
+.accordion-item{
+    margin: 80px 0;
+    
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+    padding: 10px 50px;
+    font-size: 100px;
+    color: white;
+    font-family:  'Januari Blossom', sans-serif;
 }
 
 
+
+/* ACCORDIAN 2 */
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #e7f1ff;
+    /* box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%); */
+    font-size: 100px;
+    padding: 10px 50px;
+    font-family: 'Januari Blossom', sans-serif;
+}
+
+
+.accordion-body {
+    padding: 1rem 1.25rem;
+    color: white;
+    background: #181717;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+}
 .faq-text h1{
     font-size: 100px;
     font-family:  'Januari Blossom', sans-serif;
@@ -329,16 +367,32 @@ margin: auto;
 .accordion-button {
     background: linear-gradient(to right,#423801,#422101);
 }
-.accordion-button:not(.collapsed) {
-    color: white;
-    background-color: #e7f1ff;
-    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+
+.acc2{
+  
+        padding: 10px 50px;
+        font-size: 100px;
+        color: white;
+        font-family: 'Januari Blossom', sans-serif;
+    
 }
-.accordion-flush .accordion-item .accordion-button {
-    border-radius: 0;
-    color: white;
-    font-family:  'Januari Blossom', sans-serif;
-    font-size: 60px;
+
+.accordion-item:not(:first-of-type) {
+    border: 5px solid #3A3A3A;
+    border-radius: 10px;
+}
+
+.accordion-item {
+    border: 5px solid #3A3A3A;
+    border-radius: 10px;
+}
+.acc3{
+  
+        padding: 10px 50px;
+        font-size: 100px;
+        color: white;
+        font-family: 'Januari Blossom', sans-serif;
+    
 }
 .accordion-flush .accordion-item:first-child {
     border-top: 0;
@@ -351,24 +405,22 @@ margin-top: 80px;
     border: 5px solid #ffffff26;
     border-radius: 8px;
 }
-.accordion-item:last-of-type .accordion-collapse {
-    border-bottom-right-radius: 0.25rem;
-    border-bottom-left-radius: 0.25rem;
-    font-size: 21px;
-    font-family: 'Poppins', sans-serif;
-}
+
+
+
 
 .accordion-button:focus {
     z-index: 3;
-   
+    border: none !important;
     outline: 0;
-    box-shadow: 0 0 0 ;
+    box-shadow: none !important;
 }
-
-
-
-
-
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: 0 0 0 .25remrgba(13,110,253,.25);
+}
 /* FOTEER section */
 
 .footer-text {
