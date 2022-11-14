@@ -10,15 +10,15 @@ const Features = () => {
                 <center><img src={'./images/vector.png'} alt="" /></center>
             </div>
             <div className='features-box'> 
-                <center><p>Minted on Polygon Low Gas Fees</p></center>
+                <center><p>Utility that unlocks over time</p></center>
                 <center><img src={'./images/vector (1).png'} alt="" /></center>
             </div>
             <div className='features-box'> 
-                <center><p>Minted on Polygon Low Gas Fees</p></center>
+                <center><p>Exclusive Access To Holders</p></center>
                 <center><img src={'./images/vector (2).png'} alt="" /></center>
             </div>
             <div className='features-box'> 
-                <center><p>Minted on Polygon Low Gas Fees</p></center>
+                <center><p>Decide on Clueless Cheetah Future</p></center>
                 <center><img src={'./images/vector (3).png'} alt="" /></center>
             </div>
         </div>
